@@ -54,7 +54,10 @@ app.get("/design-arts", (req, res) => {
       res.sendFile(__dirname + "/details/bahia.html");
   
       });
-
+ app.get("/Mausoleum", (req, res) => {
+  res.sendFile(__dirname + "/details/mausoleum.html");
+ });
+ 
 
 
 app.post("/", (req, res) => {
