@@ -58,7 +58,15 @@ app.get("/design-arts", (req, res) => {
   res.sendFile(__dirname + "/details/mausoleum.html");
  });
  
-
+ app.get("/aliZaoua", (req, res) => {
+  res.sendFile(__dirname + "/details/aliZaoua.html");
+ });
+ app.get("/timbuktu", (req, res) => {
+  res.sendFile(__dirname + "/details/timbuktu.html");
+ });
+ app.get("/mimosas", (req, res) => {
+  res.sendFile(__dirname + "/details/mimosas.html");
+ });
 
 app.post("/", (req, res) => {
   var subName = req.body.yourname
